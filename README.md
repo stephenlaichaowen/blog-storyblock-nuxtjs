@@ -1,6 +1,12 @@
-# blog-storyblock
+# My Blog with Storyblock
 
-> My Blog with Storyblock
+<!-- > My Blog with Storyblock -->
+
+Frontend tech: `Nuxtjs`
+  
+Backend tech: `Storyblock`
+
+
 
 ## Build Setup
 
