@@ -47,5 +47,4 @@ Publish directory: dist
 ```
 
 ## DEMO
-<a href="https://blog-storyblok-nuxtjs.netlify.app/" target="_blank">https://blog-storyblok-nuxtjs.netlify.app/</a>
-<!-- [https://blog-storyblok-nuxtjs.netlify.app/](https://blog-storyblok-nuxtjs.netlify.app/) -->
+[https://blog-storyblok-nuxtjs.netlify.app/](https://blog-storyblok-nuxtjs.netlify.app/)
