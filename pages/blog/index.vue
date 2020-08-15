@@ -32,16 +32,6 @@ export default {
       })
     }
   }
-
-  // async asyncData(context) {
-  //   const posts = await context.app.$axios.$get('/posts.json')
-  //   return { posts }
-  // },
-
-  // async asyncData({ $axios }) {
-  //   const posts = await $axios.$get('/posts.json')
-  //   return { posts }
-  // },
 }
 </script>
 

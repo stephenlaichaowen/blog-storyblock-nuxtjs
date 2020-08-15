@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sports",
+    "title": "Sports",
+    "previewText": "This will be awesome, don't miss it!",
+    "thumbnailUrl": "http://lorempixel.com/1200/800/sports"
+  },
+  {
+    "id": "cats",
+    "title": "Cats",
+    "previewText": "This will be awesome, don't miss it!",
+    "thumbnailUrl": "http://lorempixel.com/1200/800/cats"
+  },
+  {
+    "id": "business",
+    "title": "Business",
+    "previewText": "This will be awesome, don't miss it!",
+    "thumbnailUrl": "http://lorempixel.com/1200/800/business"
+  },
+  {
+    "id": "food",
+    "title": "Food",
+    "previewText": "This will be awesome, don't miss it!",
+    "thumbnailUrl": "http://lorempixel.com/1200/800/food"
+  },
+  {
+    "id": "nature",
+    "title": "Nature",
+    "previewText": "This will be awesome, don't miss it!",
+    "thumbnailUrl": "http://lorempixel.com/1200/800/nature"
+  },
+  {
+    "id": "city",
+    "title": "City",
+    "previewText": "This will be awesome, don't miss it!",
+    "thumbnailUrl": "http://lorempixel.com/1200/800/city"
+  },
+  {
+    "id": "people",
+    "title": "People",
+    "previewText": "This will be awesome, don't miss it!",
+    "thumbnailUrl": "http://lorempixel.com/1200/800/people"
+  },
+  {
+    "id": "transport",
+    "title": "Transport",
+    "previewText": "This will be awesome, don't miss it!",
+    "thumbnailUrl": "http://lorempixel.com/1200/800/transport"
+  },
+  {
+    "id": "fashion",
+    "title": "Fashion",
+    "previewText": "This will be awesome, don't miss it!",
+    "thumbnailUrl": "http://lorempixel.com/1200/800/fashion"
+  },
+  {
+    "id": "abstract",
+    "title": "Abstract",
+    "previewText": "This will be awesome, don't miss it!",
+    "thumbnailUrl": "http://lorempixel.com/1200/800/abstract"
+  }
+]

@@ -1,59 +1,55 @@
 
 export default {
   mode: 'universal',
-  /*
-  ** Headers of the page
-  */
+
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'My Blog',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: 'An awesome blog about tech stuff, built with Nuxt and Storyblock' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:400,700' }
     ]
   },
-  /*
-  ** Customize the progress-bar color
-  */
+
   loading: { color: '#fff' },
-  /*
-  ** Global CSS
-  */
+
   css: [
+    '~assets/css/main.css'
   ],
-  /*
-  ** Plugins to load before mounting the App
-  */
+
+  transition: {
+    name: 'fade',
+    mode: 'out-in',
+  },
+
   plugins: [
   ],
-  /*
-  ** Nuxt.js dev-modules
-  */
+
   buildModules: [
+    '@nuxtjs/tailwindcss'
   ],
-  /*
-  ** Nuxt.js modules
-  */
+
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/style-resources',
+    ['storyblok-nuxt', {
+      accessToken: 'rXxwm8UWr6Qyr1Qp2mEsTAtt',
+      cacheProvider: 'memory'
+    }]
   ],
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
+
   axios: {
   },
-  /*
-  ** Build configuration
-  */
+
+  styleResources: {
+    scss: ['./assets/scss/*.scss']
+  },
+
   build: {
-    /*
-    ** You can extend webpack config here
-    */
     extend (config, ctx) {
     }
   }
