@@ -35,7 +35,7 @@ $ npm run start
 $ npm run generate
 
 # upload to github repo
-git init && git add . && git commit -m "commit" && git push origin master
+git add . && git commit -m "commit" && git push origin master
 ```
 
 ## Deploy to Netilify account
@@ -47,4 +47,5 @@ Publish directory: dist
 ```
 
 ## DEMO
-[https://blog-storyblok-nuxtjs.netlify.app/](https://blog-storyblok-nuxtjs.netlify.app/)
+<a href="https://blog-storyblok-nuxtjs.netlify.app/" target="_blank">https://blog-storyblok-nuxtjs.netlify.app/</a>
+<!-- [https://blog-storyblok-nuxtjs.netlify.app/](https://blog-storyblok-nuxtjs.netlify.app/) -->
