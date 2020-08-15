@@ -1,8 +1,6 @@
-# My Blog with Storyblock [DEMO](https://blog-storyblok-nuxtjs.netlify.app/)
+# My Blog with Storyblock 
 
 > This is a simple blog built with Nuxtjs and Storyblock, with the power of SAP + SSR + headless CMS, you can build a powerful blog website in a short amount of time, let us check it out !!!
-
-<!-- ## [LIVE DEMO](https://blog-storyblok-nuxtjs.netlify.app/) -->
 
 ## Technology
 - Frontend: Nuxtjs
@@ -48,6 +46,4 @@ Build command: npm run generate
 Publish directory: dist
 ```
 
-
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## [LIVE DEMO](https://blog-storyblok-nuxtjs.netlify.app/)
