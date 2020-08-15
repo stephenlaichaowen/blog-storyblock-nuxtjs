@@ -1,10 +1,13 @@
 # My Blog with Storyblock
 
-_**Frontend**_: `Nuxtjs` 
-  
-_**Backend**_: `Storyblock`
+<!-- _**Frontend**_: `Nuxtjs` 
+_**Backend**_: `Storyblock` -->
 
 > This is a simple blog built with Nuxtjs and Storyblock, with the power of SAP + SSR + headless CMS, you can build a powerful blog website in a short amount of time, let us check it out !!!
+
+## Technology
+- Frontend: Nuxtjs
+- Backend: Storyblok
 
 ## What is Nuxtjs ?
 - It is a progressive framework based on Vue.js to create modern web applications.
@@ -41,7 +44,7 @@ git init && git add . && git commit -m "commit" && git push origin master
 ## Deploy to Netilify account
 
 ```bash
-### Build settings
+# Build settings
 Build command: npm run generate
 Publish directory: dist
 ```
