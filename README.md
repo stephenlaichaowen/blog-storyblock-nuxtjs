@@ -46,4 +46,5 @@ Build command: npm run generate
 Publish directory: dist
 ```
 
-## [LIVE DEMO](https://blog-storyblok-nuxtjs.netlify.app/)
+## DEMO
+[https://blog-storyblok-nuxtjs.netlify.app/](https://blog-storyblok-nuxtjs.netlify.app/)
