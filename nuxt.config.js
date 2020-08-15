@@ -37,7 +37,10 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
     ['storyblok-nuxt', {
-      accessToken: 'rXxwm8UWr6Qyr1Qp2mEsTAtt',
+      accessToken: 
+        process.env.NODE_ENV == 'production'
+        ? 'YmqRZOWscHZCNQ01U3CJLQtt'
+        : 'rXxwm8UWr6Qyr1Qp2mEsTAtt',
       cacheProvider: 'memory'
     }]
   ],
