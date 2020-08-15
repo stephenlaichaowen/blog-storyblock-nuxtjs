@@ -18,10 +18,6 @@ _**Backend**_: `Storyblock`
 - It is a database for the content to read and write to
 - It is an admin interface to let editors manage the content
 
-
-
-
-
 ## Build Setup
 
 ```bash
@@ -37,6 +33,19 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+# upload to github repo
+git init && git add . && git commit -m "commit" && git push origin master
 ```
+
+## Deploy to Netilify account
+
+```bash
+### Build settings
+Build command: npm run generate
+Publish directory: dist
+```
+
+
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
